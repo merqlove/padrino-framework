@@ -16,7 +16,7 @@ module Mail # @private
         settings.reload_templates = true
       end
 
-      initialize_template_settings!
+      # initialize_template_settings!
 
       initialize_without_app(*args, &block)
     end
